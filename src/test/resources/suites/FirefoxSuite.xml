@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="FirefoxSuite">
+    <parameter name="browser" value="firefox"/>
+    <test name="Gmail test">
+        <classes>
+            <class name="gmail.common.GmailTest"/>
+        </classes>
+    </test>
+</suite>
